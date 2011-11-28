@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/setting" 
+      	android:title="Settings">
+	</item>
+	<item android:id="@+id/language" 
+    	android:title="Language">
+    	<menu>
+    		<item android:id="@+id/englishmenu"
+    			android:title="English"/>
+    		<item android:id="@+id/frenchmenu"
+    			android:title="French"/>
+    	</menu> 
+    </item>
+	<item android:id="@+id/exit" 
+    	android:title="Exit"> 
+    </item>
+</menu>
